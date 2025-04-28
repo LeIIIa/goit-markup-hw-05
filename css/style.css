@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
     font-size: 16px;
     font-weight: 700;
@@ -13,4 +13,45 @@ a {
 ul,
 li {
     list-style: none;
+}
+
+.logo-header {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+}
+
+.logo-studio {
+    color: #2e2f42;
+}
+
+.btn-studio {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.btn-studio:hover,
+.btn-studio:focus {
+    color: #404bbf;
+}
+
+.address-block {
+    font-style: normal;
+}
+
+.contact-mail {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+    color: #404bbf;
 }
