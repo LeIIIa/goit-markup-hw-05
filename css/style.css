@@ -51,8 +51,8 @@ li {
     color: #434455;
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
+.contact:hover,
+.contact:focus {
     color: #404bbf;
 }
 
