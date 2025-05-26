@@ -168,7 +168,7 @@ img {
 }
 
 .advantages__item {
-    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .advantage-title {
