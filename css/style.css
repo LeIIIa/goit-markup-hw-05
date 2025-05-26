@@ -37,7 +37,7 @@ img {
 }
 
 
-.header__nav {
+.nav-container {
     display: flex;
     align-items: center;
     width: 100%;
@@ -50,11 +50,10 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-}
-
-.header__logo {
     margin-right: 76px;
 }
+
+
 
 .header__menu {
     display: flex;
@@ -199,7 +198,7 @@ img {
     padding: 120px 0;
 }
 
-.sectio-title {
+.section-title {
     margin-bottom: 72px;
 }
 
