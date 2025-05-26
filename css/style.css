@@ -119,11 +119,12 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-}
-
-.hero__title {
     max-width: 496px;
 }
+
+
+
+
 
 .action-btn {
     background-color: #4D5AE5;
