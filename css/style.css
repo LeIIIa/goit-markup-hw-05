@@ -27,10 +27,14 @@ img {
 
 .header__container {
     display: flex;
+}
+
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 
 .header__nav {
     display: flex;
@@ -56,6 +60,12 @@ img {
     gap: 40px;
 }
 
+.header__contacts {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+}
+
 .logo-studio {
     color: #2e2f42;
 }
@@ -69,10 +79,14 @@ img {
     display: block;
 }
 
+
+
+
 .header__link:hover,
 .header__link:focus {
     color: #404bbf;
 }
+
 
 .address-block {
     font-style: normal;
@@ -84,8 +98,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    display: flex;
 }
+
 
 .contact:hover,
 .contact:focus {
