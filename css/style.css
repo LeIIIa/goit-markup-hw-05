@@ -193,6 +193,9 @@ a {
 }
 
 .advantage-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
