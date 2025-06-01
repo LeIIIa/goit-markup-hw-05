@@ -208,9 +208,15 @@ a {
     width: calc((100% - 72px) / 4);
 }
 
-.portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 
 .advantage-title {
@@ -263,6 +269,11 @@ a {
 }
 
 /* Portfolio section */
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio-title {
     font-size: 36px;
     line-height: 1.11;
