@@ -687,3 +687,10 @@ a {
     justify-content: center;
     fill: transparent;
 }
+
+/* When input is checked, styles for span with class */
+.form__field__checkbox input:checked+.form__privacy-label .form__custom-checkbox {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
