@@ -598,7 +598,6 @@ a {
 
 .form__field {
     margin-bottom: 8px;
-    margin-bottom: 16px
 }
 
 .form__label {
@@ -639,4 +638,8 @@ a {
 
 .form__input:focus+.form__icon {
     fill: #4D5AE5;
+}
+
+.form__field__comment {
+    margin-bottom: 16px;
 }
