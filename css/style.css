@@ -40,7 +40,6 @@ body {
     color: #434455;
     background-color: #FFFFFF;
     font-size: 16px;
-    font-weight: 700;
 }
 
 a {
@@ -529,6 +528,9 @@ a {
 /* Modal Backdrop */
 
 .modal__backdrop {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -537,6 +539,14 @@ a {
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal__backdrop.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+
 
 .modal__container {
     position: absolute;
@@ -660,6 +670,11 @@ a {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form__textarea::placeholder {
+    color: rgba(46, 47, 66, 0.4);
+    ;
+}
+
 .form__textarea:focus {
     border-color: #4D5AE5;
 }
@@ -686,6 +701,7 @@ a {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 /* When input is checked, styles for span with class */
@@ -714,5 +730,7 @@ a {
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
+    border-radius: 4px;
 
 }
